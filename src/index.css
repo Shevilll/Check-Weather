@@ -1,3 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Pangolin&display=swap");
 * {
-    background-color: aquamarine;
+    font-family: "Pangolin", cursive;
+}
+body {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("https://images.unsplash.com/photo-1547623641-d2c56c03e2a7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1287&q=80");
+    background-repeat: repeat;
+    backdrop-filter: blur(50px);
+    text-align: center;
+}
+input {
+    background-color: rgba(0, 0, 0, 0);
+    text-align: center;
+    border: 2px dotted black;
+    font-size: 30px;
+}
+#container {
+    display: flex;
+    justify-content: center;
+}
+#main {
+    justify-content: space-around;
+    margin-top: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+#info {
+    display: block;
+}
+#weather {
+    text-align: right;
+}
+#content {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
 }
